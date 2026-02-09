@@ -3,26 +3,43 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 2) cd ~/cli_sandbox
 
 1: Create a file called "correspondence.txt" containing these words (one per line): "rain needle rain ditch rain". Then count the lines.
+echo "rain\nneedle\nrain\nditch\nrain" > correspondence.txt
+wc-l correspondence.txt
 
 2: If already inside "cli_sandbox", create a directory "recommend" and move into the directory.
+mkdir recommend
+cd recommend
 
 3: Create a file called "banish.txt".
+touch banish.txt
 
 4: Delete the last file you created.
+rm banish.txt
 
 5: Create a file called "hill.txt" and immediately delete it.
+touch hill.txt
+rm hill.txt
 
 6: Create a folder named "cli_sandbox".
+mkdir cli_sandbox
+
 
 7: Output what's in the directory.
+ls
 
 8: Delete the last file you created.
+rm (filename)
 
 9: Output hidden files.
+ls -a
 
 10: Create a file "bay.txt" containing: "recession beat recession advice recession". Then output the sorted lines.
+echo "blanewlineblanewlinebla" > bay.txt
+sort bay.txt
 
 11: Create a file called "interference.txt" containing these words (one per line): "needle correspondence needle rain needle". Then count the lines.
+echo "needle\ncorrespondence\nneedle\nrain\nneedle" > interference.txt
+wc-l interference.txt
 
 12: Open a file in the terminal and see the content.
 
